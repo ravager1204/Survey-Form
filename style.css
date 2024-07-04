@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.container{
+    background-color: #818cf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerContainer{
+    width: 40%;
+    padding: 40px;
+    text-align: center;
+}
+
+.titleText{
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+
+.subtitleText{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+
+.formContainer{
+    background-color: #64748b;
+    width: 35%;
+    color: #eef2ff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+
+.formItemContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #1e293b;
+}
+
+.label{
+    font-weight: 500;
+    
+}
+
+.input, .selection, .option{
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: #1e293b;
+}
+
+.textarea{
+    resize: vertical;
+    max-height: 500px;
+    min-height: 50px;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: #1e293b;
+}
+
+.button{
+    color: white;
+    background-color: #10b981;
+    padding: 10px;
+    border: none;
+    font: 500;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: orange;
+}
+
+
+
+
+
+
+
